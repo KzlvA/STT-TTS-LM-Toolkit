@@ -52,7 +52,7 @@ def youtube_search(criteria, max_res):
         token = None
         response = youtube_keyword(client,
                                    part='id,snippet',
-                                   maxResults=3,
+                                   maxResults=50,
                                    q=criteria,
                                    relevanceLanguage='en',
                                    videoCaption='closedCaption',
@@ -79,6 +79,7 @@ def youtube_search(criteria, max_res):
 # generate pandas dataframe of a given search
 # in this iteration (and because of quota limits)
 # 4500 videos were called in practice. minimum is 50 regardless of value based on 'max results'
+# actual max results per page = 50
 Found_Videos = youtube_search('search query', 4500)
 Found_Videos.shape
 
