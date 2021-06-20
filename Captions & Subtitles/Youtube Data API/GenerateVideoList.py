@@ -2,7 +2,6 @@
 # download subtitles using commandline tools & youtube.dl
 import pandas as pd
 import os
-import webvtt
 import csv
 
 import google.oauth2.credentials
