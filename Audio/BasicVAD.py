@@ -17,7 +17,7 @@ model, utils = torch.hub.load(repo_or_dir='snakers4/silero-vad',
  single_audio_stream,
  collect_chunks) = utils
 
-files_dir = torch.hub.get_dir() + ''
+files_dir = torch.hub.get_dir() + '/snakers4_silero-vad_master/files'
 
 wav = read_audio(f'{files_dir}/en.wav')
 # get speech timestamps from full audio file
