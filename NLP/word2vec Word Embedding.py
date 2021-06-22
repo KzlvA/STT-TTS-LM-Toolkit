@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # `word2vec` Word Embedding
+# # `word2vec` Word Embedding jupyter notebook output
 # 
 
 # In[ ]:
