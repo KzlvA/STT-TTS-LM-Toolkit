@@ -1,3 +1,12 @@
+# To install Comet ML API
+$ pip install comet_ml
+
+# To obtain API follow instructions:
+https://www.comet.ml/docs/rest-api/getting-started/
+
+# Further documentation on Python & Comet ML
+https://www.comet.ml/docs/python-sdk/getting-started/
+
 # Import comet_ml at the top of your file
 from comet_ml import Experiment
 
