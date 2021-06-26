@@ -29,7 +29,7 @@ experiment.log_parameters(hyper_params)
 hidden_layer_size = 50
 experiment.log_parameter("hidden_layer_size", hidden_layer_size)
 
-# Long any time-series metrics:
+# Log any time-series metrics:
 train_accuracy = 3.14
 experiment.log_metric("accuracy", train_accuracy, step=0)
 
