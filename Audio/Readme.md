@@ -33,4 +33,5 @@ experiment.log_parameter("hidden_layer_size", hidden_layer_size)
 train_accuracy = 3.14
 experiment.log_metric("accuracy", train_accuracy, step=0)
 
+# Run The code example as normal
 > <speechrecogniser.py>
