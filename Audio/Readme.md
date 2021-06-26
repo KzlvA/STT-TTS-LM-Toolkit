@@ -12,9 +12,9 @@ from comet_ml import Experiment
 
 # Create an experiment with your api key
 experiment = Experiment(
-    api_key="8AXA1ghCRhVQusGpqQVjuYGRq",
-    project_name="general",
-    workspace="kzlva",
+    api_key="",
+    project_name="",
+    workspace="",
 )
 
 # Report multiple hyperparameters using a dictionary:
@@ -33,4 +33,4 @@ experiment.log_parameter("hidden_layer_size", hidden_layer_size)
 train_accuracy = 3.14
 experiment.log_metric("accuracy", train_accuracy, step=0)
 
-# Run your code and go to /
+# Run your code <speechrecogniser.py> and go to /
