@@ -17,7 +17,7 @@ def _levenshtein_distance(ref, hyp):
     #between two sequences. Informally, the levenshtein distance is defined as
     #the minimum number of single-character edits (substitutions, insertions or
     #deletions) required to change one word into the other. We can naturally
-    #extend the edits to word level when calculate levenshtein distance for
+    #extend the edits to word level when calculating levenshtein distance for
     #two sentences.
     
     m = len(ref)
